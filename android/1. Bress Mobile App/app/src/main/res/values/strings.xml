@@ -32,4 +32,7 @@
     <string name="agreements3">Service and Privacy Policy</string>
 
 
+    <string name="hi_user">Hi! John\nWelcome to Brees</string>
+    <string name="lets_get_started">Lets Get Started</string>
+
 </resources>
