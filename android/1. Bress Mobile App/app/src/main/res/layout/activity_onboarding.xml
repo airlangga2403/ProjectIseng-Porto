@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_onboarding"
+    app:layoutDescription="@xml/activity_onboarding_scene"
+    tools:context=".ui.onboarding.OnboardingActivity">
+
+    <Button
+        android:id="@+id/ob_skip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ob_skip_btn"
+        android:text="@string/ob_skip_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ob_iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ob_iv1" />
+
+    <RelativeLayout
+        android:id="@+id/screens_1"
+        android:layout_width="335dp"
+        android:layout_height="349dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/screens_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_ob1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/ob_title_1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_text_ob1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/ob_text_1"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/slider_ob1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tv_text_ob1"
+            android:layout_alignEnd="@id/tv_text_ob1"
+            android:layout_marginTop="197dp"
+            android:src="@drawable/sliders_ob1" />
+
+        <Button
+            android:id="@+id/btn_ob1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slider_ob1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_ob_btn"
+            android:text="@string/ob_btn" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

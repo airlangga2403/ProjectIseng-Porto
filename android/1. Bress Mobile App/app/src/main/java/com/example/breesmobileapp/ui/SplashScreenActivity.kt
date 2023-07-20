@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import com.example.breesmobileapp.R
@@ -18,11 +19,9 @@ class SplashScreenActivity : AppCompatActivity() {
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val smokeAnimation = findViewById<ImageView>(R.id.iv_smoke).background as AnimationDrawable
-        smokeAnimation.start()
-
-        val rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate)
-        findViewById<ImageView>(R.id.iv_smoke).startAnimation(rotateAnimation)
+        val ivSmoke = findViewById<ImageView>(R.id.iv_smoke)
+        val backgroundDrawable = ivSmoke.background
+        Log.d("Animation", "ImageView Background: $backgroundDrawable")
 
 
     }
