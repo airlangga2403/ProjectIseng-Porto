@@ -80,5 +80,131 @@
 
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/ob_iv2"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ob_iv2" />
+
+    <RelativeLayout
+        android:id="@+id/screens_2"
+        android:layout_width="335dp"
+        android:layout_height="349dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/screens_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_ob2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/ob_title_2"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_text_ob2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/ob_text_2"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/slider_ob2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tv_text_ob2"
+            android:layout_alignEnd="@id/tv_text_ob2"
+            android:layout_marginTop="197dp"
+            android:src="@drawable/sliders_ob2" />
+
+        <Button
+            android:id="@+id/btn_ob2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ob_btn"
+            android:layout_below="@id/slider_ob2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_ob_btn"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ob_iv3"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ob_iv3" />
+
+    <RelativeLayout
+        android:id="@+id/screens_3"
+        android:layout_width="335dp"
+        android:layout_height="349dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/screens_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_ob3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/ob_title_3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_text_ob3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/ob_text_3"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/slider_ob3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tv_text_ob3"
+            android:layout_alignEnd="@id/tv_text_ob3"
+            android:layout_marginTop="197dp"
+            android:src="@drawable/sliders_ob3" />
+
+        <Button
+            android:id="@+id/btn_ob3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ob_get_started"
+            android:layout_below="@id/slider_ob3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_ob_btn"/>
+
+
+    </RelativeLayout>
+
+
+
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
