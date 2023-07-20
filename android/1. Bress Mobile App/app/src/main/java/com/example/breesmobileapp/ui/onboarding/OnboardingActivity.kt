@@ -18,6 +18,7 @@ class OnboardingActivity : AppCompatActivity() {
 
         binding.btnOb3.setOnClickListener {
             startActivity(Intent(this@OnboardingActivity, LoginActivity::class.java))
+            finish()
         }
 
     }

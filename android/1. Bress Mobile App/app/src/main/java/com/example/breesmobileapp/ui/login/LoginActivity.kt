@@ -1,9 +1,11 @@
 package com.example.breesmobileapp.ui.login
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.breesmobileapp.R
 import com.example.breesmobileapp.databinding.ActivityLoginBinding
+import com.example.breesmobileapp.ui.signup.SignUpActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -13,5 +15,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.registerBtn.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, SignUpActivity::class.java))
+        }
     }
 }

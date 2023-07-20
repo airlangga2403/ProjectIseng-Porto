@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Brees Mobile App</string>
+
+    <string name="brees">Brees</string>
+
+    <string name="ob_skip_btn">Skip</string>
+    <string name="ob_btn">Next</string>
+    <string name="ob_get_started">Get Started</string>
+
+    <string name="ob_title_1">You ought to know where\nyour money goes</string>
+    <string name="ob_title_2">Gain total\ncontrol of your money</string>
+    <string name="ob_title_3">Plan ahead and manage\nyour money better</string>
+
+    <string name="ob_text_1">Get an overview of how you are\nperforming and motivate yourself to\nachieve even more.</string>
+    <string name="ob_text_2">Track your transaction easily, with\ncategories and financial report</string>
+    <string name="ob_text_3">Setup your budget for each category\nso you in control. Track categories you\nspend the most money on</string>
+
+    <string name="login">Login</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sub_title_login">Hey you’re back, fill in your details to get back in</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="register">Register</string>
+
+    <string name="signup">Sign Up</string>
+    <string name="welcome_to_brees">Welcome to Brees</string>
+    <string name="sub_title_regist">Complete the sign up to get started</string>
+    <string name="name">Name</string>
+    <string name="agreements">By signing up, you agree to the </string>
+    <string name="agreements2">Terms of</string>
+    <string name="agreements3">Service and Privacy Policy</string>
+
+
+</resources>
