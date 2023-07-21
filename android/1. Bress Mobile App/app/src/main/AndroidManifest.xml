@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BreesMobileApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.signup.verifyemail.VerificationEmailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.signup.GetStartedActivity"
             android:exported="false" />
         <activity

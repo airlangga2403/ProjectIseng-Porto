@@ -12,5 +12,6 @@
     <color name="context_text_color">#292B2D</color>
 
     <color name="bg_register">#D3CDCD</color>
+    <color name="text_color">#240F51</color>
 
 </resources>

@@ -40,11 +40,14 @@
     <string name="setup_pin">Connect your bank account</string>
     <string name="connect_bank">Setup a security pin</string>
     <string name="tell_us">Tell us more about you</string>
-
     <string name="context_get_started">This is the bank account we would\ntrack and manage your spendings</string>
     <string name="content_description_email">Email Image</string>
     <string name="content_description_bank">Bank Image</string>
     <string name="content_description_padlock">Padlock Image</string>
     <string name="content_description_user">User Image</string>
+    
+    <string name="we_have_sent_email">We have sent an email\nverification link to your email</string>
+    <string name="check_email">Check your email test@test.com and click\nthe link to verify your email address</string>
+    <string name="open_email">Open Email</string>
 
 </resources>
