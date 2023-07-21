@@ -34,5 +34,17 @@
 
     <string name="hi_user">Hi! John\nWelcome to Brees</string>
     <string name="lets_get_started">Lets Get Started</string>
+    <string name="sub_title_get_started">Get most out of your Brees account</string>
+    <string name="verify_email">Verify your email address</string>
+    <string name="connect_bank">Connect your bank account</string>
+    <string name="setup_pin">Connect your bank account</string>
+    <string name="connect_bank">Setup a security pin</string>
+    <string name="tell_us">Tell us more about you</string>
+
+    <string name="context_get_started">This is the bank account we would\ntrack and manage your spendings</string>
+    <string name="content_description_email">Email Image</string>
+    <string name="content_description_bank">Bank Image</string>
+    <string name="content_description_padlock">Padlock Image</string>
+    <string name="content_description_user">User Image</string>
 
 </resources>

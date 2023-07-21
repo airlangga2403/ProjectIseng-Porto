@@ -7,7 +7,7 @@ Project Iseng doank
 UI From : https://www.figma.com/community/file/1185342629951105842
 
 
-# Dislaimer
+# Disclaimer
 Please note that this project is for educational and learning purposes only. It is not intended for commercial use or distribution. All design assets, including the UI obtained from Figma, are the property of their respective owners.
 
 # Acknowledgment

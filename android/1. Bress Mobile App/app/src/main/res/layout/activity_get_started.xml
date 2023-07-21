@@ -4,6 +4,235 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_splash"
     tools:context=".ui.signup.GetStartedActivity">
+
+
+    <TextView
+        android:id="@+id/tv_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/ob_get_started"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/sub_title_get_started"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_get_started" />
+
+    <Button
+        android:id="@+id/getstarted_skip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ob_skip_btn"
+        android:text="@string/ob_skip_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/cv_1"
+        android:layout_width="335dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_sub_title">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/inter_semibold"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/verify_email"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="57dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/context_get_started"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/content_description_email"
+            android:src="@drawable/img_email" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cv_2"
+        android:layout_width="335dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/inter_semibold"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/connect_bank"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="57dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/context_get_started"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/content_description_bank"
+            android:src="@drawable/img_bank" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cv_3"
+        android:layout_width="335dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/inter_semibold"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/setup_pin"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="57dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/context_get_started"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/content_description_padlock"
+            android:src="@drawable/img_padlock" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/cv_4"
+        android:layout_width="335dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/inter_semibold"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/tell_us"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="57dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/context_get_started"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/content_description_user"
+            android:src="@drawable/img_user" />
+
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
