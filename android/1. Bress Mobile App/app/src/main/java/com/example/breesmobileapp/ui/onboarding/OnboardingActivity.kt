@@ -1,9 +1,8 @@
 package com.example.breesmobileapp.ui.onboarding
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.breesmobileapp.R
+import androidx.appcompat.app.AppCompatActivity
 import com.example.breesmobileapp.databinding.ActivityOnboardingBinding
 import com.example.breesmobileapp.ui.login.LoginActivity
 

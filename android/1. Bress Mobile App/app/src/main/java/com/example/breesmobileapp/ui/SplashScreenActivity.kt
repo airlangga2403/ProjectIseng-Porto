@@ -1,14 +1,8 @@
 package com.example.breesmobileapp.ui
 
-import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.drawable.AnimationDrawable
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.animation.AnimationUtils
-import android.widget.ImageView
-import com.example.breesmobileapp.R
+import androidx.appcompat.app.AppCompatActivity
 import com.example.breesmobileapp.databinding.ActivitySplashScreenBinding
 import com.example.breesmobileapp.ui.onboarding.OnboardingActivity
 

@@ -25,7 +25,7 @@
         android:fontFamily="@font/inter_semibold"
         android:gravity="center"
         android:text="@string/we_have_sent_email"
-        android:textColor="@color/text_color"
+        android:textColor="@color/text_color2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

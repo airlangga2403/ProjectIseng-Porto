@@ -1,8 +1,8 @@
 package com.example.breesmobileapp.ui.signup
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.breesmobileapp.databinding.ActivityGetStartedBinding
 import com.example.breesmobileapp.ui.signup.verifyemail.VerificationEmailActivity
 

@@ -1,10 +1,10 @@
 package com.example.breesmobileapp.ui.login
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.breesmobileapp.R
+import androidx.appcompat.app.AppCompatActivity
 import com.example.breesmobileapp.databinding.ActivityLoginBinding
+import com.example.breesmobileapp.ui.signup.GetStartedActivity
 import com.example.breesmobileapp.ui.signup.SignUpActivity
 
 class LoginActivity : AppCompatActivity() {
@@ -18,6 +18,11 @@ class LoginActivity : AppCompatActivity() {
 
         binding.registerBtn.setOnClickListener {
             startActivity(Intent(this@LoginActivity, SignUpActivity::class.java))
+        }
+
+        binding.loginBtn.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, GetStartedActivity::class.java))
+
         }
     }
 }

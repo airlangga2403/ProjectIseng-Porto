@@ -1,8 +1,7 @@
 package com.example.breesmobileapp.ui.signup.verifyemail
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.breesmobileapp.R
+import androidx.appcompat.app.AppCompatActivity
 import com.example.breesmobileapp.databinding.ActivityVerificationEmailBinding
 
 class VerificationEmailActivity : AppCompatActivity() {
