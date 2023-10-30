@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.signup.verifyemail.VerificationEmailActivity">
+    tools:context=".presentation.activities.VerificationEmailActivity">
 
     <ImageView
         android:id="@+id/iv_verification_email"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.signup.SignUpActivity">
+    tools:context=".presentation.activities.SignUpActivity">
 
     <ImageView
         android:id="@+id/iv_arrow_back"
@@ -159,6 +159,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="8dp"
+        android:layout_weight="1"
         android:layout_marginTop="32dp"
         android:text="@string/agreements"
         app:layout_constraintStart_toStartOf="parent"
@@ -175,6 +176,8 @@
         android:id="@+id/agreement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_weight="1"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="32dp"
         android:padding="15dp"

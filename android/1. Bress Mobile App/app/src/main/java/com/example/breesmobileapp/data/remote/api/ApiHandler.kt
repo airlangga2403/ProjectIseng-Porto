@@ -9,7 +9,6 @@ interface ApiHandler {
 
     companion object {
         private val TAG = "ApiHandler"
-        private val TAG_FIREBASE = "ApiHandler"
     }
 
     suspend fun <T : Any> handleApi(

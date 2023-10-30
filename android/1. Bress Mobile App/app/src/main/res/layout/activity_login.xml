@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".presentation.activities.LoginActivity">
 
     <TextView
         android:id="@+id/tv_title"
@@ -131,6 +131,7 @@
         android:backgroundTint="@color/bg_register"
         android:textColor="@color/bg_splash"
         android:layout_marginLeft="20dp"
+        android:layout_weight="1"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="50dp"
         android:text="@string/register"
@@ -145,6 +146,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="50dp"
+        android:layout_weight="1"
         android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
